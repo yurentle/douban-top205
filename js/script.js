@@ -30,7 +30,7 @@
                 })
 				$.ajax({  
 					type: "get",
-					url: 'http://api.douban.com/v2/movie/top250?start=' + start + '&count=' + count,
+					url: 'https://api.douban.com/v2/movie/top250?start=' + start + '&count=' + count,
 					dataType: "jsonp"
 				})
 				.done(function(response){
