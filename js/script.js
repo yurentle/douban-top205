@@ -77,13 +77,13 @@
                 }
             },
             nextPage: function() {
-                let pageThis = parseInt($('.active').html())
+                let pageThis = parseInt($('.active>a').html())
                 if (pageThis < this.totalPage) {
                     this.thisPage(pageThis + 1)
                 }
             },
             prevPage: function() {
-                let pageThis = parseInt($('.active').html())
+                let pageThis = parseInt($('.active>a').html())
                 if (pageThis > 1) {
                     this.thisPage(pageThis - 1)
                 }

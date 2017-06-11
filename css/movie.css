@@ -1,4 +1,3 @@
-
 *{
 	margin: 0;
 	box-sizing: border-box;
@@ -29,6 +28,13 @@ body{
 	margin-top: 1%;
 	box-shadow: 0 1px 3px gray;
 	animation: bounceInDown 1s;
+}
+.cover{
+	width: 50%;
+	display: block;
+}
+.pd-1{
+	padding: 1%;
 }
 .genres{
 	background: #d9534f;
@@ -73,12 +79,4 @@ body{
 	body{
 		font-size: 14px;
 	}
-}
-/*辅助性CSS*/
-.img100{
-	width: 50%;
-	display: block;
-}
-.pd-1{
-	padding: 1%;
 }

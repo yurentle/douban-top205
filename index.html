@@ -15,14 +15,14 @@
   <body>
     <div class="container">
       <header class="header">
-        电影TOP250
+        豆瓣电影TOP250
       </header>
       <main class="main">
         <ul class="movie">
           <li class="row" v-for='everyone in film'>
             <div class="col-md-2 col-sm-2 col-xs-3 pd-1">
               <em>{{ everyone.ranking }}</em>
-              <img v-bind:src='everyone.src' class="img100">
+              <img v-bind:src='everyone.src' class="cover">
             </div>
             <div class="col-md-10 col-sm-10 col-xs-9 pd-1">
               <div class="movie_name">
