@@ -1,0 +1,78 @@
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 24px;
+	min-width: 520px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.header{
+	margin-top: 1%;
+	text-align: center;
+	color: white;
+	background: #428bca;
+	height: 2em;
+	line-height: 2em;
+	box-shadow: 0 3px #2a6496;
+	border-radius: 3px;
+}
+.movie{
+	list-style: none;
+	padding: 0;
+}
+.movie>li{
+	margin: 0;
+	display: flex;
+	background: #eee;
+	margin-top: 1%;
+	box-shadow: 0 1px 3px gray;
+	animation: bounceInDown 1s;
+}
+.genres{
+	background: #d9534f;
+	margin-left: 1%;
+	padding: 0.5%;
+	border-radius: 0.8em;
+	font-size: 0.8em;
+	color:white;
+}
+.footer{
+	display: flex;
+}
+.footer>nav{
+	margin: 0 auto;
+}
+.input{
+	font-size: 16px;
+	margin-left: 1em;
+}
+.input>input{
+	width: 2em;
+	height: 2em;
+}
+/*媒体查询*/
+@media only screen and (max-width: 1366px){
+	body{
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 992px){
+	body{
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 768px){
+	body{
+		font-size: 14px;
+	}
+}
+/*辅助性CSS*/
+.img100{
+	width: 50%;
+	display: block;
+}
+.pd-1{
+	padding: 1%;
+}
