@@ -14,7 +14,7 @@
         methods: {
             thisPage: function(index) {
                 this.film = []
-                const count = 10
+                const count = 25
                 let i = (index - 1) * count + 1  //i为电影排名
                 let start = (index - 1) * count
                 this.pageArr = []
